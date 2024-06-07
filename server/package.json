@@ -1,0 +1,26 @@
+{
+  "name": "project-management-app-server",
+  "version": "1.0.0",
+  "description": "Server for the project management application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "project",
+    "management",
+    "server"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "bcrypt": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "socket.io": "^4.3.1"
+  }
+}
